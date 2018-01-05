@@ -5,7 +5,7 @@ class arr
 public static void main(String args[])
 {
 int n;
-int v=0;
+int b=0;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 int a[]=new int[n];
@@ -25,7 +25,7 @@ System.out.print(a[j]+" ");
 }
 }
 }
-if(v==0)
+if(b==0)
 {
 System.out.println("Unique");
 }
